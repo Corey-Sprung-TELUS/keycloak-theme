@@ -96,7 +96,7 @@ body {
 
 
 .login-pf body {
-    background: #37464D 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     background-size: cover;
     height: 100%;
 }
@@ -196,18 +196,16 @@ div.kc-logo-text span {
 }
 
 #kc-header {
-    color: #ededed;
+    color: #ffffff;
     overflow: visible;
     white-space: nowrap;
 }
 
 #kc-header-wrapper {
-    font-size: 29px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 1.2em;
-    padding: 62px 10px 20px;
-    white-space: normal;
+    background-image: url(../img/TELUS_2020_EN_Digital_RGB.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 130px;
 }
 
 #kc-content {
@@ -547,8 +545,8 @@ a.zocial  {
 }
 
 .card-pf {
-  background: #37464D;
-  color: #D3D6D8;
+  background: #FFFFFF;
+  color: #54595F;
   margin: 0 auto;
   padding: 0 20px;
   max-width: 500px;
@@ -649,13 +647,13 @@ form#kc-select-back-form div.login-pf-social-section {
 
 /* Own styles */
 .btn-primary {
-    background: transparent linear-gradient(270deg, #D54927 0%, #E36132 50%, #F58240 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #4B286D 0%, #4f336b 50%, #533f66 100%) 0% 0% no-repeat padding-box;
     border-radius: 3px;
     color: #fff;
 }
 
 .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open .dropdown-toggle.btn-primary {
-    background: transparent linear-gradient(270deg, #D54927 0%, #E36132 50%, #F58240 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(270deg, #4B286D 0%, #4B286D 50%, #4B286D 100%) 0% 0% no-repeat padding-box;
     border-radius: 3px;
     color: #fff;
 }
@@ -706,18 +704,18 @@ form#kc-select-back-form div.login-pf-social-section {
     padding: 4px 14px;
     font-size: 16px;
     line-height: 1.66666667;
-    color: #D3D6D8;
-    background: #19272E 0% 0% no-repeat padding-box;
+    color: #2A2C2E;
+    background: #F7F7F8  0% 0% no-repeat padding-box;
     background-image: none;
-    border: 1px solid #19272E;
+    border: 1px solid #2A2C2E;
     border-radius: 3px;
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 input.form-control:-webkit-autofill,
 input.form-control:-webkit-autofill:hover,
 input.form-control:-webkit-autofill:focus {
-    color: #D3D6D8;
-    background: #19272E 0% 0% no-repeat padding-box;
+    color: #2A2C2E;
+    background: #F7F7F8 0% 0% no-repeat padding-box;
 }
 input[type="password"] {
     letter-spacing: 1.3px;
@@ -733,7 +731,7 @@ input[type="password"] {
     flex-grow: 1;
 }
 .control-label {
-    color: #D3D6D8;
+    color: #54595F;
     font-family: OpenSans-Light;
 }
 #kc-form-login::before {
@@ -808,5 +806,5 @@ a.oidc:hover > span::before {
 }
 
 .login-pf, .login-pf-page  {
-    background-color: #37464D !important;
+    background-color: #FFFFFF !important;
 }
